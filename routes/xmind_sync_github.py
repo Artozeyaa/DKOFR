@@ -25,10 +25,10 @@ async def xmind_sync(url: dict = Body(...)):
 
     g = Github(GIT_TOKEN)
 
-    owner = 'Tiffozi-ilia'
-    repo_name = 'AImatrix'
+    owner = 'Artozeyaa'
+    repo_name = 'DKOFR'
     file_path = 'matrix.xmind'
-    branch = 'all-in'
+    branch = 'main'
 
     repo = g.get_repo(f"{owner}/{repo_name}")
     contents = repo.get_contents(file_path, ref=branch)

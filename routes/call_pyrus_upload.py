@@ -7,11 +7,11 @@ router = APIRouter()
 
 @router.get("/call-pyrus-upload", response_class=PlainTextResponse)
 def run_script():
-    xmind_url = "https://raw.githubusercontent.com/Tiffozi-ilia/AImatrix/all-in/matrix.xmind"
+    xmind_url = "https://raw.githubusercontent.com/Artozeyaa/DKOFR/main/matrix.xmind"
     headers = {"Content-Type": "application/json"}
     payload = json.dumps(xmind_url)
 
-    base = "https://aimatrix-e8zs.onrender.com"
+    base = "https://dkofr.onrender.com"
     endpoints = {
         "DIFF": f"{base}/xmind-diff",
         "UPDATED": f"{base}/xmind-updated",

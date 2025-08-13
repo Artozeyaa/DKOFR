@@ -29,7 +29,7 @@ def enrich_parent_name(df: pd.DataFrame) -> pd.DataFrame:
 async def update_parent_names():
     logger.info("🔄 Запуск обновления parent_name...")
 
-    json_url = "https://aimatrix-e8zs.onrender.com/json"
+    json_url = "https://dkofr.onrender.com/json"
     try:
         async with httpx.AsyncClient(timeout=60.0) as client:
             response = await client.get(json_url)

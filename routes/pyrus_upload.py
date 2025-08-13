@@ -16,7 +16,7 @@ FIELD_IDS = {
 
 FORM_ID = 484498
 PYRUS_URL = "https://pyrus.sovcombank.ru/api/v4"
-LOCAL_URL = "https://aimatrix-e8zs.onrender.com"
+LOCAL_URL = "https://dkofr.onrender.com"
 
 
 @router.post("/pyrus_upload")
